@@ -36,7 +36,7 @@ class Contract extends Component {
 
 const ConnectContract = () => (
   <Connect>
-    {(state, dispatch, passProps) => {
+    {(state, dispatch) => {
       const { addStars: { num } } = state
       const props = {
         num,

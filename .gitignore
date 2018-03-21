@@ -3,4 +3,4 @@
 npm-debug*
 node_modules/
 
-dist/*.*
+dist/*
