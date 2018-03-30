@@ -11,7 +11,6 @@ const port = process.env.PORT || 3000
 const devMiddleware = makeDevMiddleware(compiler, {
   publicPath: config.output.publicPath,
   stats: 'minimal',
-  lazy: true,
 })
 
 
